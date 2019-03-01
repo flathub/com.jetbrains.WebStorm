@@ -32,6 +32,16 @@
   <url type="homepage">http://www.jetbrains.com/webstorm/</url>
   <launchable type="desktop-id">com.jetbrains.WebStorm.desktop</launchable>
   <releases>
+    <release version="2018.3.5" date="2019-02-27">
+      <description>
+        <ul>
+          <li>The error when running async tests with Jest 24.0+ has been fixed</li>
+          <li>Search Everywhere popup now allows to filter out run/debug configurations and shows search results with shorter delay</li>
+          <li>The performance problem causing a high CPU and memory usage in the idle state has been fixed</li>
+          <li>When the light editor color scheme is selected together with the dark IDE theme, the IDE will no longer reset the scheme to Darcula after restart</li>
+        </ul>
+      </description>
+    </release>
     <release version="2018.3.4" date="2019-01-30" />
     <release version="2018.3.3" date="2019-01-11">
       <description>
