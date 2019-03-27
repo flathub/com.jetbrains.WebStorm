@@ -1,8 +1,11 @@
 [Desktop Entry]
-Name=WebStorm
-GenericName=WebStorm
+Categories=Development;IDE;
 Exec=webstorm-desktop
-Terminal=false
+GenericName=The smartest JavaScript IDE
 Icon=com.jetbrains.WebStorm
+Keywords=development;javascript;webstorm;
+Name=WebStorm
+StartupNotify=true
+StartupWMClass=webstorm-desktop
+Terminal=false
 Type=Application
-Categories=Development;

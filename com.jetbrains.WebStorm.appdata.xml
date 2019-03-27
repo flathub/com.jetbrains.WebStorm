@@ -6,7 +6,7 @@
   <name>WebStorm</name>
   <summary>The smartest JavaScript IDE</summary>
   <description>
-    <p>Use the full power of the modern JavaScript ecosystem – WebStorm’s got you covered! Enjoy the intelligent code
+    <p>Use the full power of the modern JavaScript ecosystem – WebStorm's got you covered! Enjoy the intelligent code
       completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet
       languages, and all the most popular frameworks.
     </p>
@@ -31,36 +31,7 @@
   <url type="help">https://www.jetbrains.com/help/webstorm/</url>
   <url type="homepage">http://www.jetbrains.com/webstorm/</url>
   <launchable type="desktop-id">com.jetbrains.WebStorm.desktop</launchable>
-  <releases>
-    <release version="2018.3.5" date="2019-02-27">
-      <description>
-        <ul>
-          <li>The error when running async tests with Jest 24.0+ has been fixed</li>
-          <li>Search Everywhere popup now allows to filter out run/debug configurations and shows search results with shorter delay</li>
-          <li>The performance problem causing a high CPU and memory usage in the idle state has been fixed</li>
-          <li>When the light editor color scheme is selected together with the dark IDE theme, the IDE will no longer reset the scheme to Darcula after restart</li>
-        </ul>
-      </description>
-    </release>
-    <release version="2018.3.4" date="2019-01-30" />
-    <release version="2018.3.3" date="2019-01-11">
-      <description>
-        <p>What’s new:</p>
-        <ul>
-          <li>Support for Set Literals in Dart</li>
-          <li>Completion for attribute bindings in Angular (e.g. [atrr.foo] )</li>
-          <li>Better coding assistance for some Ionic and @angular/flex-layout attributes</li>
-        </ul>
-        <p>What’s fixed:</p>
-        <ul>
-          <li>Wrong indent after self-closing JSX tags in JavaScript and TypeScript files</li>
-          <li>Decorators are now supported in the class expressions like let newTest = @test class Test or export default @observer class Test</li>
-          <li>When using the bundled TypeScript service in Angular apps, the Angular language service is now disabled. Otherwise, there’re false errors in the template files</li>
-        </ul>
-      </description>
-    </release>
-  </releases>
-  <developer_name>JetBrains</developer_name>
+  <developer_name>JetBrains s.r.o.</developer_name>
   <screenshots>
     <screenshot type="default">
       <image type="source">https://www.jetbrains.com/webstorm/img/screenshots/webstorm-main.png</image>
@@ -68,4 +39,42 @@
   </screenshots>
   <update_contact>sakcheen+flathub_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1" />
+  <releases>
+    <release version="2019.1.0" date="2019-03-24" />
+    <release version="2018.3.5" date="2019-02-27">
+      <description>
+        <ul>
+          <li>The error when running async tests with Jest 24.0+ has been fixed</li>
+          <li>Search Everywhere popup now allows to filter out run/debug configurations and shows search results with
+            shorter delay
+          </li>
+          <li>The performance problem causing a high CPU and memory usage in the idle state has been fixed</li>
+          <li>When the light editor color scheme is selected together with the dark IDE theme, the IDE will no longer
+            reset the scheme to Darcula after restart
+          </li>
+        </ul>
+      </description>
+    </release>
+    <release version="2018.3.4" date="2019-01-30" />
+    <release version="2018.3.3" date="2019-01-11">
+      <description>
+        <p>What's new:</p>
+        <ul>
+          <li>Support for Set Literals in Dart</li>
+          <li>Completion for attribute bindings in Angular (e.g. [atrr.foo] )</li>
+          <li>Better coding assistance for some Ionic and @angular/flex-layout attributes</li>
+        </ul>
+        <p>What's fixed:</p>
+        <ul>
+          <li>Wrong indent after self-closing JSX tags in JavaScript and TypeScript files</li>
+          <li>Decorators are now supported in the class expressions like let newTest = @test class Test or export
+            default @observer class Test
+          </li>
+          <li>When using the bundled TypeScript service in Angular apps, the Angular language service is now disabled.
+            Otherwise, there're false errors in the template files
+          </li>
+        </ul>
+      </description>
+    </release>
+  </releases>
 </component>
