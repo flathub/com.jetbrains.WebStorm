@@ -46,7 +46,7 @@ modules:
       - type: extra-data
         filename: webstorm.tar.gz
         sha256: c3ef27051f6de608ee679035957a8a4329897c910b046cb2dbbf840cc8151dae
-        size: 267639462
+        size: 271142666
         url: https://download.jetbrains.com/webstorm/WebStorm-2019.1.3.tar.gz
       - type: script
         commands:
