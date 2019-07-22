@@ -10,13 +10,13 @@ tags:
   - proprietary
 finish-args:
   - --device=dri
-  - --env=WEBSTORM_JDK=/app/extra/webstorm/jre64/
+  - --env=WEBSTORM_JDK=/app/extra/webstorm/jre64
   - --filesystem=host
-  - --filesystem=xdg-run/keyring
   - --share=ipc
   - --share=network
   - --socket=wayland
   - --socket=x11
+  - --talk-name=org.freedesktop.Flatpak
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
 modules:
@@ -45,12 +45,16 @@ modules:
         dest-filename: apply_extra
       - type: extra-data
         filename: webstorm.tar.gz
-        sha256: c3ef27051f6de608ee679035957a8a4329897c910b046cb2dbbf840cc8151dae
-        size: 271142666
-        url: https://download.jetbrains.com/webstorm/WebStorm-2019.1.3.tar.gz
+        sha256: 6a51dd26a5f219ae576d3893e60ad3e15abb6b08b2fad8c94cd651aafbdaf86f
+        size: 316455503
+        url: https://download.jetbrains.com/webstorm/WebStorm-2019.2.tar.gz
       - type: script
         commands:
-          - exec env JAVA_TOOL_OPTIONS=-Djava.io.tmpdir=${XDG_CACHE_HOME}/tmp/ TMPDIR=${XDG_CACHE_HOME}/tmp/ /app/extra/webstorm/bin/webstorm.sh "$@"
+          - JAVA_TOOL_OPTIONS=-Djava.io.tmpdir=${XDG_CACHE_HOME}/tmp/
+          - export JAVA_TOOL_OPTIONS
+          - TMPDIR=${XDG_CACHE_HOME}/tmp/
+          - export TMPDIR
+          - exec env /app/extra/webstorm/bin/webstorm.sh "$@"
         dest-filename: webstorm-desktop.sh
       - type: file
         sha256: 56c6c82b8d256dd12883782d6be54c929edd7f3e510c288d272addba0b420ea5
