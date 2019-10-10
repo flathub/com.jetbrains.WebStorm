@@ -1,7 +1,7 @@
 app-id: com.jetbrains.WebStorm
 command: webstorm-desktop
 runtime: org.freedesktop.Sdk
-runtime-version: "18.08"
+runtime-version: "19.08"
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node10
@@ -20,8 +20,6 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
 modules:
-  - shared-modules/gtk2/gtk2.json
-
   - name: nodejs
     buildsystem: simple
     build-commands:
@@ -45,9 +43,9 @@ modules:
         dest-filename: apply_extra
       - type: extra-data
         filename: webstorm.tar.gz
-        sha256: 6a51dd26a5f219ae576d3893e60ad3e15abb6b08b2fad8c94cd651aafbdaf86f
-        size: 316455503
-        url: https://download.jetbrains.com/webstorm/WebStorm-2019.2.tar.gz
+        sha256: af94c66c80508fe221d9ba2b294d3852d68db8bc293dd240e2638dd2c21a6c50
+        size: 317639868
+        url: https://download.jetbrains.com/webstorm/WebStorm-2019.2.3.tar.gz
       - type: script
         commands:
           - JAVA_TOOL_OPTIONS=-Djava.io.tmpdir=${XDG_CACHE_HOME}/tmp/
