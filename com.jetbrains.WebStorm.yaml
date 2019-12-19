@@ -41,11 +41,6 @@ modules:
           - tar -xzf webstorm.tar.gz --directory=webstorm/ --strip-components=1
           - rm webstorm.tar.gz
         dest-filename: apply_extra
-      - type: extra-data
-        filename: webstorm.tar.gz
-        sha256: af94c66c80508fe221d9ba2b294d3852d68db8bc293dd240e2638dd2c21a6c50
-        size: 317639868
-        url: https://download.jetbrains.com/webstorm/WebStorm-2019.2.3.tar.gz
       - type: script
         commands:
           - JAVA_TOOL_OPTIONS=-Djava.io.tmpdir=${XDG_CACHE_HOME}/tmp/
@@ -61,3 +56,11 @@ modules:
         path: com.jetbrains.WebStorm.desktop
       - type: file
         path: com.jetbrains.WebStorm.appdata.xml
+      - type: extra-data
+        filename: webstorm.tar.gz
+        sha256: af94c66c80508fe221d9ba2b294d3852d68db8bc293dd240e2638dd2c21a6c50
+        size: 317639868
+        url: https://download.jetbrains.com/webstorm/WebStorm-2019.2.3.tar.gz
+        x-checker-data:
+          type: jetbrains
+          code: WS
