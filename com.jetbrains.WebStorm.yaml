@@ -58,9 +58,9 @@ modules:
         path: com.jetbrains.WebStorm.appdata.xml
       - type: extra-data
         filename: webstorm.tar.gz
-        sha256: 6f42ea183fd17668b8c57ae825afde1ac3757bde75a7700526fcf665c01ba434
-        size: 339941213
-        url: https://download.jetbrains.com/webstorm/WebStorm-2020.1.1.tar.gz
+        sha256: 9b4b662144b4b58c901a3338a89a0ba847c3e2a329cdd0d34f69ba1a198befeb
+        size: 339864446
+        url: https://download.jetbrains.com/webstorm/WebStorm-2020.1.2.tar.gz
         x-checker-data:
           type: jetbrains
           code: WS
