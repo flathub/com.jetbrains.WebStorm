@@ -43,8 +43,6 @@ modules:
         dest-filename: apply_extra
       - type: script
         commands:
-          - JAVA_TOOL_OPTIONS=-Djava.io.tmpdir=${XDG_CACHE_HOME}/tmp/
-          - export JAVA_TOOL_OPTIONS
           - TMPDIR=${XDG_CACHE_HOME}/tmp/
           - export TMPDIR
           - exec env /app/extra/webstorm/bin/webstorm.sh "$@"
