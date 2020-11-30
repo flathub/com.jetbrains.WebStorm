@@ -45,6 +45,7 @@ modules:
         commands:
           - TMPDIR="${XDG_RUNTIME_DIR}/app/${FLATPAK_ID}"
           - export TMPDIR
+          - . /usr/lib/sdk/node10/enable.sh
           - exec env /app/extra/webstorm/bin/webstorm.sh "$@"
         dest-filename: webstorm-desktop.sh
       - type: file
