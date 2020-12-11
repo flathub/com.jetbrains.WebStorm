@@ -1,10 +1,8 @@
 app-id: com.jetbrains.WebStorm
-command: webstorm-desktop
+command: webstorm
 runtime: org.freedesktop.Sdk
 runtime-version: '20.08'
 sdk: org.freedesktop.Sdk
-sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node10
 separate-locales: false
 tags:
   - proprietary
@@ -20,17 +18,11 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
 modules:
-  - name: nodejs
-    buildsystem: simple
-    build-commands:
-      - /usr/lib/sdk/node10/install.sh
-
   - name: webstorm
     buildsystem: simple
     build-commands:
       - unzip webstorm_logos.zip
       - install -D apply_extra /app/bin/apply_extra
-      - install -D -m755 webstorm-desktop.sh ${FLATPAK_DEST}/bin/webstorm-desktop
       - install -D -m644 webstorm_logos/icon-webstorm.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
       - install -D -m644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}.desktop
       - install -D -m644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.appdata.xml
@@ -41,12 +33,6 @@ modules:
           - tar -xzf webstorm.tar.gz --directory=webstorm/ --strip-components=1
           - rm webstorm.tar.gz
         dest-filename: apply_extra
-      - type: script
-        commands:
-          - TMPDIR="${XDG_RUNTIME_DIR}/app/${FLATPAK_ID}"
-          - export TMPDIR
-          - exec env /app/extra/webstorm/bin/webstorm.sh "$@"
-        dest-filename: webstorm-desktop.sh
       - type: file
         sha256: 19ac2b68ed6831b1363b66706a349dd8a5dc473f521ad2a476758bd369a7b884
         url: https://resources.jetbrains.com/storage/products/webstorm/docs/webstorm_logos.zip
@@ -63,3 +49,13 @@ modules:
         x-checker-data:
           type: jetbrains
           code: WS
+
+  - name: wrapper
+    buildsystem: meson
+    config-opts:
+      - "-Deditor_binary=/app/extra/webstorm/bin/webstorm.sh"
+      - "-Dprogram_name=webstorm"
+      - "-Deditor_title=WebStorm"
+    sources:
+      - type: dir
+        path: wrapper
