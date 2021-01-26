@@ -43,9 +43,9 @@ modules:
         path: com.jetbrains.WebStorm.appdata.xml
       - type: extra-data
         filename: webstorm.tar.gz
-        sha256: 403a4207816eb580b8302bac323c52e59c770f26a8600a1a01ce7c67791fd8ad
-        size: 441960473
-        url: https://download.jetbrains.com/webstorm/WebStorm-2020.3.1.tar.gz
+        sha256: 80f83417f7ac49cd78a9c12d2bc0a30312b8f9de97288625d3b576e0dd23eaca
+        size: 442114041
+        url: https://download.jetbrains.com/webstorm/WebStorm-2020.3.2.tar.gz
         x-checker-data:
           type: jetbrains
           code: WS
@@ -53,9 +53,9 @@ modules:
   - name: wrapper
     buildsystem: meson
     config-opts:
-      - "-Deditor_binary=/app/extra/webstorm/bin/webstorm.sh"
-      - "-Dprogram_name=webstorm"
-      - "-Deditor_title=WebStorm"
+      - -Deditor_binary=/app/extra/webstorm/bin/webstorm.sh
+      - -Dprogram_name=webstorm
+      - -Deditor_title=WebStorm
     sources:
       - type: dir
         path: jetbrains-flatpak-wrapper
