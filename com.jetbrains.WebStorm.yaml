@@ -1,7 +1,7 @@
 app-id: com.jetbrains.WebStorm
 command: webstorm
 runtime: org.freedesktop.Sdk
-runtime-version: '20.08'
+runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 separate-locales: false
 tags:
