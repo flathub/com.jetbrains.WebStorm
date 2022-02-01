@@ -18,6 +18,8 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
 modules:
+  - shared-modules/libsecret/libsecret.json
+
   - name: webstorm
     buildsystem: simple
     build-commands:
