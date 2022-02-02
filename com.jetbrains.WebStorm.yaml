@@ -10,6 +10,7 @@ finish-args:
   - --device=dri
   - --env=WEBSTORM_JDK=/app/extra/webstorm/jre64
   - --filesystem=host
+  - --filesystem=xdg-run/keyring
   - --share=ipc
   - --share=network
   - --socket=wayland
