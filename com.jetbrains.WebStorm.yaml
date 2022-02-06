@@ -10,6 +10,7 @@ finish-args:
   - --device=dri
   - --env=WEBSTORM_JDK=/app/extra/webstorm/jre64
   - --filesystem=host
+  - --filesystem=xdg-run/keyring
   - --share=ipc
   - --share=network
   - --socket=wayland
@@ -18,6 +19,8 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
 modules:
+  - shared-modules/libsecret/libsecret.json
+
   - name: webstorm
     buildsystem: simple
     build-commands:
