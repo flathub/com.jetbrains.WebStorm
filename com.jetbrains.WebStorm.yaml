@@ -49,6 +49,7 @@ modules:
       - install -D -m644 webstorm_logos/icon-webstorm.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
       - install -D -m644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}.desktop
       - install -D -m644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.appdata.xml
+      - cat idea.properties | tee -a ${FLATPAK_DEST}/bin/idea.properties
     sources:
       - type: script
         commands:
@@ -72,6 +73,8 @@ modules:
         x-checker-data:
           type: jetbrains
           code: WS
+      - type: file
+        path: idea.properties
 
   - name: wrapper
     buildsystem: meson
