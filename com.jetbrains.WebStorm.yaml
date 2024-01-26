@@ -67,9 +67,9 @@ modules:
         path: com.jetbrains.WebStorm.appdata.xml
       - type: extra-data
         filename: webstorm.tar.gz
-        sha256: c4d69ebdb24bf8d84b406afc65ff34d6b7c22fd461df92c5fe32e5e3c88502a7
-        size: 628413570
-        url: https://download.jetbrains.com/webstorm/WebStorm-2023.3.2.tar.gz
+        sha256: c56ece93853aff41bc4b1fa7c40be086c8d0cb8346891ecd47a70c3978c66cd3
+        size: 628970040
+        url: https://download.jetbrains.com/webstorm/WebStorm-2023.3.3.tar.gz
         only-arches:
           - x86_64
         x-checker-data:
@@ -77,9 +77,9 @@ modules:
           code: WS
       - type: extra-data
         filename: webstorm.tar.gz
-        sha256: e21bac4babd922bc4cc5d879b3d867ffd4e13d4c881c045d14691790cef5644c
-        size: 629053463
-        url: https://download.jetbrains.com/webstorm/WebStorm-2023.3.2-aarch64.tar.gz
+        sha256: 14fe97e2ed2b7a2c283266159d571f955631abb527b2c728e4b837cdacf2a5fc
+        size: 629612859
+        url: https://download.jetbrains.com/webstorm/WebStorm-2023.3.3-aarch64.tar.gz
         only-arches:
           - aarch64
         x-checker-data:
