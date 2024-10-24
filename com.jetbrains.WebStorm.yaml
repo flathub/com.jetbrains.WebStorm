@@ -67,9 +67,9 @@ modules:
         path: com.jetbrains.WebStorm.appdata.xml
       - type: extra-data
         filename: webstorm.tar.gz
-        sha256: c7bb12ff65a27dc76b81293e0e61b846b2ce9328bfeb8d75fe50ccf564e81078
-        size: 870609552
-        url: https://download.jetbrains.com/webstorm/WebStorm-2024.2.2.tar.gz
+        sha256: c7cd4f9c5affc7f2d24e50130d5565165cc88ac3a4f7fbefd9986a03727f753e
+        size: 880803367
+        url: https://download.jetbrains.com/webstorm/WebStorm-2024.2.4.tar.gz
         only-arches:
           - x86_64
         x-checker-data:
@@ -77,9 +77,9 @@ modules:
           code: WS
       - type: extra-data
         filename: webstorm.tar.gz
-        sha256: 6a515ada0410bf94ffed892863b0156acb41c170f78041a12bdd891cad9ea782
-        size: 869442384
-        url: https://download.jetbrains.com/webstorm/WebStorm-2024.2.2-aarch64.tar.gz
+        sha256: 80b64046d1eab7f1487110095fdcbb4b1bb2543f900e3a7ab7badcf2f7c17c96
+        size: 879649262
+        url: https://download.jetbrains.com/webstorm/WebStorm-2024.2.4-aarch64.tar.gz
         only-arches:
           - aarch64
         x-checker-data:
