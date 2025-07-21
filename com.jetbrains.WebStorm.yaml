@@ -60,7 +60,6 @@ modules:
       - type: file
         sha256: 19ac2b68ed6831b1363b66706a349dd8a5dc473f521ad2a476758bd369a7b884
         url: https://resources.jetbrains.com/storage/products/webstorm/docs/webstorm_logos.zip
-        size: 1131401
       - type: file
         path: com.jetbrains.WebStorm.desktop
       - type: file
