@@ -19,6 +19,13 @@
   ],
   "modules": [
     {
+      "name": "node24",
+      "buildsystem": "simple",
+      "build-commands": [
+        "/usr/lib/sdk/node24/enable.sh"
+      ]
+    },
+    {
       "name": "webstorm",
       "build-commands": [
         "install -D -t ${FLATPAK_DEST}/bin/ apply_extra webstorm-wrapper idea.properties",
@@ -88,7 +95,6 @@
           "type": "script",
           "dest-filename": "webstorm-wrapper",
           "commands": [
-            "/usr/lib/sdk/node24/enable.sh",
             "/app/extra/bin/webstorm $@"
           ]
         }
