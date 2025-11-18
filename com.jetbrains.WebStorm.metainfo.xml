@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>com.jetbrains.WebStorm</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>LicenseRef-proprietary</project_license>
+    <name>WebStorm</name>
+    <launchable type="desktop-id">com.jetbrains.WebStorm.desktop</launchable>
+    <update_contact>idea@jetbrains.com</update_contact>
+    <summary>The JavaScript and TypeScript IDE</summary>
+    <url type="bugtracker">https://youtrack.jetbrains.com/issues/WEB/</url>
+    <url type="help">https://www.jetbrains.com/help/webstorm</url>
+    <url type="homepage">https://www.jetbrains.com/webstorm/</url>
+    <url type="contact">https://www.jetbrains.com/company/contacts</url>
+    <developer id="com.jetbrains">
+        <name>JetBrains s.r.o.</name>
+    </developer>
+    <content_rating type="oars-1.1">
+        <content_attribute id="social-info">moderate</content_attribute>
+    </content_rating>
+    <branding>
+        <color scheme_preference="light" type="primary">#f0eb18</color>
+        <color scheme_preference="dark" type="primary">#00c4f4</color>
+    </branding>
+    <categories>
+        <category>Development</category>
+        <category>IDE</category>
+    </categories>
+    <keywords>
+        <keyword>javascript</keyword>
+        <keyword>typescript</keyword>
+        <keyword>development</keyword>
+        <keyword>ide</keyword>
+    </keywords>
+    <requires>
+        <memory>2048</memory>
+        <control>keyboard</control>
+        <control>pointing</control>
+        <display_length compare="ge">768</display_length>
+    </requires>
+    <recommends>
+        <memory>8192</memory>
+        <display_length compare="ge">1080</display_length>
+        <internet>always</internet>
+    </recommends>
+    <supports>
+        <internet>offline-only</internet>
+    </supports>
+    <description>
+        <p>Use the full power of the modern JavaScript ecosystem – WebStorm's got you covered! Enjoy the intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks.</p>
+        <p>Debug your client-side and Node.js apps with ease in the IDE – put breakpoints right in the source code, explore the call stack and variables, set watches, and use the interactive console.</p>
+        <p>Take advantage of the linters, build tools, test runners, REST client, and other tools, all deeply integrated with the IDE. But any time you need Terminal, it's also available as an IDE tool window.</p>
+        <p>Run and debug tests with Karma, Mocha, Protractor, and Jest in WebStorm. Immediately see test statuses right in the editor, or in a handy treeview from which you can quickly jump to the test.</p>
+        <p>Use a simple unified UI to work with Git, GitHub, Mercurial, and other VCS. Commit files, review changes, and resolve conflicts with a visual diff/merge tool right in the IDE.</p>
+        <p>WebStorm is available for a free 30-day evaluation. Monthly and yearly subscription options are available for companies and individual users.</p>
+        <p>NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.</p>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/code-completion.png</image>
+            <caption>Code completion</caption>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/code-quality.png</image>
+            <caption>Code quality analysis</caption>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/rename-refactoring.png</image>
+            <caption>Safe refactorings</caption>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/quick-documentation.png</image>
+            <caption>Quick documentation</caption>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/built-in-preview.png</image>
+            <caption>Built-in HTML preview</caption>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/code-boosters.png</image>
+            <caption>Efficiency-boosting features</caption>
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="2025.2.4" date="2025-10-23">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538676/WebStorm-2025.2.4-252.27397.92-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Support ES6 inside jade templates and mixins</li>
+                    <li>Astro: support expressions in HTML raw text content</li>
+                </ul>
+            </description>
+        </release>
+        <release version="2025.2.3" date="2025-10-02">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538669/WebStorm-2025.2.3-252.26830.93-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Angular 20.2: Support as aliases on else if blocks</li>
+                    <li>Produce an inspection warning when .length is accessed on an uncalled signal</li>
+                    <li>Popup for navigating between Angular component files</li>
+                </ul>
+            </description>
+        </release>
+        <release version="2025.2.2" date="2025-09-18">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538660/WebStorm-2025.2.2-252.26199.162-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>LSP API: support textDocument/foldingRange request</li>
+                    <li>LSP API: support inlay hints (textDocument/inlayHint request)</li>
+                    <li>Remote CLI for forwarding browser handling to client device</li>
+                </ul>
+            </description>
+        </release>
+        <release version="2025.2.1" date="2025-09-18">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538651/WebStorm-2025.2.1-252.25557.126-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Angular 20: support void and exponentiation operators in templates</li>
+                    <li>Angular 20.1: add support for new binary assignment operators</li>
+                    <li>Prisma: multiple database schemas support</li>
+                    <li>Prisma: render LSP diagnostics in Markdown</li>
+                    <li>Angular 19: keydown.code." is a valid Angular key event binding</li>
+                    <li>Prisma: support for missing attributes and completions</li>
+                    <li>Prisma: support for sharding in 6.10</li>
+                    <li>GraphQL: Add support for descriptions on executable definitions</li>
+                    <li>Support TypeScript Native Previews (@typescript/native-preview) on WSL</li>
+                    <li>GraphQL: update Relay schema to support error handling</li>
+                    <li>GraphQL: support @oneOf directive spec</li>
+                    <li>Spellcheck should ignore missing accents in object names, functions, etc.</li>
+                    <li>Spellcheck should accommodate for umlauts</li>
+                    <li>Initial comment with onboarding tips</li>
+                    <li>terraform: required_providers autocompletion is not working.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="2025.2" date="2025-08-04">
+            <url type="details">https://blog.jetbrains.com/webstorm/2025/08/webstorm-2025-2/</url>
+            <description>
+                <ul>
+                    <li>TypeScript-Go language server: Support for the TypeScript-Go language server is now available in WebStorm.</li>
+                    <li>Baseline: WebStorm displays Web Platform Baseline information in quick documentation.</li>
+                    <li>Bun: Bun is auto-detected and suggested as a package manager, and WebStorm now automatically creates Bun run/debug configurations for scripts.</li>
+                    <li>AI: The AI chat is smarter, Junie is faster, and more.</li>
+                    <li>Framework and technology: WebStorm offers support for Angular’s in keyword, and the built-in formatter is now disabled when Prettier is used. Additional improvements include an updated Prisma LSP and more.</li>
+                    <li>UI/UX: The parameter info popup is easier to read and navigate.</li>
+                </ul>
+            </description>
+        </release>
+    </releases>
+</component>
