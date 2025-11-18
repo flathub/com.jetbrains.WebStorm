@@ -22,7 +22,7 @@
       "name": "node24",
       "buildsystem": "simple",
       "build-commands": [
-        "/usr/lib/sdk/node24/enable.sh"
+        "source /usr/lib/sdk/node24/enable.sh"
       ]
     },
     {
