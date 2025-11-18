@@ -14,8 +14,6 @@
     "--share=ipc",
     "--share=network",
     "--socket=x11",
-    "--socket=ssh-auth",
-    "--socket=gpg-agent",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.secrets"
   ],
