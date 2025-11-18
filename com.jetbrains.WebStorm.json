@@ -1,0 +1,94 @@
+{
+    "id": "com.jetbrains.WebStorm",
+    "runtime": "org.freedesktop.Sdk",
+    "runtime-version": "25.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "webstorm-wrapper",
+    "finish-args": [
+        "--device=dri",
+        "--filesystem=home",
+        "--filesystem=xdg-run/keyring",
+        "--share=ipc",
+        "--share=network",
+        "--socket=x11",
+        "--talk-name=org.freedesktop.Notifications",
+        "--talk-name=org.freedesktop.secrets"
+    ],
+    "modules": [
+        {
+            "name": "webstorm",
+            "build-commands": [
+                "install -D -t ${FLATPAK_DEST}/bin/ apply_extra webstorm-wrapper idea.properties",
+                "install -Dm644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}.desktop",
+                "install -Dm644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.metainfo.xml",
+                "install -Dm644 -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/ ${FLATPAK_ID}.svg"
+            ],
+            "buildsystem": "simple",
+            "sources": [
+                {
+                    "type": "extra-data",
+                    "filename": "webstorm.tar.gz",
+                    "only-arches": [
+                        "x86_64"
+                    ],
+                    "sha256": "218d0cb6acd1f63c9b2877738af808279796d3d7e13318b54b021c8526d49b86",
+                    "size": 1188763861,
+                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.2.4.tar.gz",
+                    "x-checker-data": {
+                        "code": "WS",
+                        "is-main-source": true,
+                        "type": "jetbrains"
+                    }
+                },
+                {
+                    "type": "extra-data",
+                    "filename": "webstorm.tar.gz",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "sha256": "1a424cb2a6c82b4fd23e087264a91dfce3a8e78d49c8988f461deafa1aa73d37",
+                    "size": 1185679572,
+                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.2.4-aarch64.tar.gz",
+                    "x-checker-data": {
+                        "code": "WS",
+                        "is-main-source": true,
+                        "type": "jetbrains"
+                    }
+                },
+                {
+                    "type": "file",
+                    "path": "com.jetbrains.WebStorm.desktop"
+                },
+                {
+                    "type": "file",
+                    "dest-filename": "com.jetbrains.WebStorm.svg",
+                    "sha256": "122e91c48164cad32675a66a2d064c1c4b258343c7c711239f8a3b0bb7a4fac8",
+                    "url": "https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm_icon.svg"
+                },
+                {
+                    "type": "file",
+                    "path": "com.jetbrains.WebStorm.metainfo.xml"
+                },
+                {
+                    "type": "file",
+                    "path": "idea.properties"
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "apply_extra",
+                    "commands": [
+                        "tar xzf webstorm.tar.gz --strip-components=1",
+                        "rm webstorm.tar.gz"
+                    ]
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "webstorm-wrapper",
+                    "commands": [
+                        "/app/extra/bin/webstorm $@"
+                    ]
+                }
+            ]
+        }
+    ]
+}

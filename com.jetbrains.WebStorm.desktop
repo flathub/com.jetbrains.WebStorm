@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Development;IDE;
-Exec=webstorm
-GenericName=The smartest JavaScript IDE
+Exec=idea-wrapper
+GenericName=The JavaScript and TypeScript IDE
 Icon=com.jetbrains.WebStorm
 Keywords=development;javascript;webstorm;
 Name=WebStorm
