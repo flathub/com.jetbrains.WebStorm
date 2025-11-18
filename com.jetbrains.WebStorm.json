@@ -4,6 +4,9 @@
   "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "webstorm-wrapper",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.node24"
+  ],
   "finish-args": [
     "--device=dri",
     "--filesystem=host",
@@ -85,6 +88,7 @@
           "type": "script",
           "dest-filename": "webstorm-wrapper",
           "commands": [
+            "source /usr/lib/sdk/node24/enable.sh",
             "/app/extra/bin/webstorm $@"
           ]
         }
