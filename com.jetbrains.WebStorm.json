@@ -6,7 +6,8 @@
   "command": "webstorm-wrapper",
   "add-extensions": {
     "org.freedesktop.Sdk.Extension.node24": {
-      "directory": "lib/node24"
+      "directory": "lib/node24",
+      "no-autodownload": false
     }
   },
   "finish-args": [
