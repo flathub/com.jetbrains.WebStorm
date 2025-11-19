@@ -6,7 +6,7 @@
   "command": "webstorm-wrapper",
   "finish-args": [
     "--device=dri",
-    "--filesystem=host",
+    "--filesystem=home",
     "--filesystem=xdg-run/keyring",
     "--share=ipc",
     "--share=network",
