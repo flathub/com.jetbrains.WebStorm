@@ -6,7 +6,7 @@
     <name>WebStorm</name>
     <launchable type="desktop-id">com.jetbrains.WebStorm.desktop</launchable>
     <update_contact>idea@jetbrains.com</update_contact>
-    <summary>The JavaScript and TypeScript IDE</summary>
+    <summary>JavaScript and TypeScript IDE</summary>
     <url type="bugtracker">https://youtrack.jetbrains.com/issues/WEB/</url>
     <url type="help">https://www.jetbrains.com/help/webstorm</url>
     <url type="homepage">https://www.jetbrains.com/webstorm/</url>
@@ -70,10 +70,6 @@
         <screenshot>
             <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/quick-documentation.png</image>
             <caption>Quick documentation</caption>
-        </screenshot>
-        <screenshot>
-            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/built-in-preview.png</image>
-            <caption>Built-in HTML preview</caption>
         </screenshot>
         <screenshot>
             <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/code-boosters.png</image>

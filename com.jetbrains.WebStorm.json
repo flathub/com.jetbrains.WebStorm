@@ -8,7 +8,7 @@
     "--device=dri",
     "--env=IDEA_PROPERTIES=/app/bin/idea.properties",
     "--env=FLATPAK_ENABLE_SDK_EXT=node24",
-    "--filesystem=host",
+    "--filesystem=home",
     "--filesystem=xdg-run/keyring",
     "--share=ipc",
     "--share=network",
