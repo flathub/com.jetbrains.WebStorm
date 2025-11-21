@@ -56,23 +56,23 @@
     </description>
     <screenshots>
         <screenshot type="default">
-            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/code-completion.png</image>
+            <image type="source">https://raw.githubusercontent.com/flathub/com.jetbrains.WebStorm/refs/heads/master/screenshots/code-completion.png</image>
             <caption>Code completion</caption>
         </screenshot>
         <screenshot>
-            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/code-quality.png</image>
+            <image type="source">https://raw.githubusercontent.com/flathub/com.jetbrains.WebStorm/refs/heads/master/screenshots/code-quality.png</image>
             <caption>Code quality analysis</caption>
         </screenshot>
         <screenshot>
-            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/rename-refactoring.png</image>
+            <image type="source">https://raw.githubusercontent.com/flathub/com.jetbrains.WebStorm/refs/heads/master/screenshots/rename-refactoring.png</image>
             <caption>Safe refactorings</caption>
         </screenshot>
         <screenshot>
-            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/quick-documentation.png</image>
+            <image type="source">https://raw.githubusercontent.com/flathub/com.jetbrains.WebStorm/refs/heads/master/screenshots/quick-documentation.png</image>
             <caption>Quick documentation</caption>
         </screenshot>
         <screenshot>
-            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/code-boosters.png</image>
+            <image type="source">https://raw.githubusercontent.com/flathub/com.jetbrains.WebStorm/refs/heads/master/screenshots/code-boosters.png</image>
             <caption>Efficiency-boosting features</caption>
         </screenshot>
     </screenshots>
