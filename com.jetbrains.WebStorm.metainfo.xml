@@ -46,13 +46,17 @@
         <internet>offline-only</internet>
     </supports>
     <description>
-        <p>Use the full power of the modern JavaScript ecosystem – WebStorm's got you covered! Enjoy the intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks.</p>
-        <p>Debug your client-side and Node.js apps with ease in the IDE – put breakpoints right in the source code, explore the call stack and variables, set watches, and use the interactive console.</p>
-        <p>Take advantage of the linters, build tools, test runners, REST client, and other tools, all deeply integrated with the IDE. But any time you need Terminal, it's also available as an IDE tool window.</p>
-        <p>Run and debug tests with Karma, Mocha, Protractor, and Jest in WebStorm. Immediately see test statuses right in the editor, or in a handy treeview from which you can quickly jump to the test.</p>
-        <p>Use a simple unified UI to work with Git, GitHub, Mercurial, and other VCS. Commit files, review changes, and resolve conflicts with a visual diff/merge tool right in the IDE.</p>
-        <p>WebStorm is available for a free 30-day evaluation. Monthly and yearly subscription options are available for companies and individual users.</p>
-        <p>NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.</p>
+        <p>Integrated development environment for JavaScript, TypeScript, and related technologies, is one of the most popular software development tools from JetBrains. It lets you get straight to coding and makes it easy to tackle the most challenging tasks, like Git merge conflict resolution or renaming a symbol across multiple files.</p>
+        <p>Here are some key features you get with WebStorm:</p>
+        <ul>
+            <li>Out-of-the-box support for JavaScript, TypeScript, React, Vue, Angular, Node.js, HTML, style sheets, and others.</li>
+            <li>Smart editor with code completion, on-the-fly error detection, safe code refactorings.</li>
+            <li>Navigation and search across the entire codebase helps you save time moving around as your projects grow in size and complexity.</li>
+            <li>Integrated developer tools that allow you to debug and test your client-side and Node.js apps as well as to work with version control, linters, build tools, terminal, and HTTP client.</li>
+            <li>AI Assistant provides context-aware support and AI-powered features to help you streamline time-consuming tasks. It can generate documentation and tests, explain parts of the code, and generate commit messages.</li>
+            <li>Collaborative and remote development, including a service for real time collaborative development and pair programming.</li>
+            <li>Customize your workspace the way you like with different themes, customizable shortcuts, and plugins.</li>
+        </ul>
     </description>
     <screenshots>
         <screenshot type="default">
