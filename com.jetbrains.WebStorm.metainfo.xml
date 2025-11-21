@@ -72,10 +72,6 @@
             <caption>Quick documentation</caption>
         </screenshot>
         <screenshot>
-            <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/built-in-preview.png</image>
-            <caption>Built-in HTML preview</caption>
-        </screenshot>
-        <screenshot>
             <image type="source">https://www.jetbrains.com/webstorm/features/screenshots/code-boosters.png</image>
             <caption>Efficiency-boosting features</caption>
         </screenshot>
