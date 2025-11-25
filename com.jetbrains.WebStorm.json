@@ -1,110 +1,110 @@
 {
-  "id": "com.jetbrains.WebStorm",
-  "runtime": "org.freedesktop.Sdk",
-  "runtime-version": "25.08",
-  "sdk": "org.freedesktop.Sdk",
-  "command": "webstorm-wrapper",
-  "finish-args": [
-    "--device=dri",
-    "--env=IDEA_PROPERTIES=/app/bin/idea.properties",
-    "--env=FLATPAK_ENABLE_SDK_EXT=node24",
-    "--filesystem=home",
-    "--filesystem=xdg-run/keyring",
-    "--share=ipc",
-    "--share=network",
-    "--socket=x11",
-    "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.secrets"
-  ],
-  "modules": [
-    {
-      "name": "webstorm",
-      "build-commands": [
-        "install -D -t ${FLATPAK_DEST}/bin/ apply_extra idea.properties",
-        "install -Dm644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}.desktop",
-        "install -Dm644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.metainfo.xml",
-        "install -Dm644 -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/ ${FLATPAK_ID}.svg"
-      ],
-      "buildsystem": "simple",
-      "sources": [
+    "id": "com.jetbrains.WebStorm",
+    "runtime": "org.freedesktop.Sdk",
+    "runtime-version": "25.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "webstorm-wrapper",
+    "finish-args": [
+        "--device=dri",
+        "--env=IDEA_PROPERTIES=/app/bin/idea.properties",
+        "--env=FLATPAK_ENABLE_SDK_EXT=node24",
+        "--filesystem=home",
+        "--filesystem=xdg-run/keyring",
+        "--share=ipc",
+        "--share=network",
+        "--socket=x11",
+        "--talk-name=org.freedesktop.Notifications",
+        "--talk-name=org.freedesktop.secrets"
+    ],
+    "modules": [
         {
-          "type": "extra-data",
-          "filename": "webstorm.tar.gz",
-          "only-arches": [
-            "x86_64"
-          ],
-          "sha256": "535167a94350f355e8d4b63624df25c9eca58e5f570df596c7ca8ab630f3c485",
-          "size": 1177634598,
-          "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.2.5.tar.gz",
-          "x-checker-data": {
-            "code": "WS",
-            "is-main-source": true,
-            "type": "jetbrains"
-          }
+            "name": "webstorm",
+            "build-commands": [
+                "install -D -t ${FLATPAK_DEST}/bin/ apply_extra idea.properties",
+                "install -Dm644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}.desktop",
+                "install -Dm644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.metainfo.xml",
+                "install -Dm644 -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/ ${FLATPAK_ID}.svg"
+            ],
+            "buildsystem": "simple",
+            "sources": [
+                {
+                    "type": "extra-data",
+                    "filename": "webstorm.tar.gz",
+                    "only-arches": [
+                        "x86_64"
+                    ],
+                    "sha256": "535167a94350f355e8d4b63624df25c9eca58e5f570df596c7ca8ab630f3c485",
+                    "size": 1177634598,
+                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.2.5.tar.gz",
+                    "x-checker-data": {
+                        "code": "WS",
+                        "is-main-source": true,
+                        "type": "jetbrains"
+                    }
+                },
+                {
+                    "type": "extra-data",
+                    "filename": "webstorm.tar.gz",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "sha256": "d4a474c7434878906ed9d3c92572ac61c6fe8eb7dc48653677e2ead1785f4551",
+                    "size": 1174566314,
+                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.2.5-aarch64.tar.gz",
+                    "x-checker-data": {
+                        "code": "WS",
+                        "is-main-source": true,
+                        "type": "jetbrains"
+                    }
+                },
+                {
+                    "type": "file",
+                    "path": "com.jetbrains.WebStorm.desktop"
+                },
+                {
+                    "type": "file",
+                    "dest-filename": "com.jetbrains.WebStorm.svg",
+                    "sha256": "122e91c48164cad32675a66a2d064c1c4b258343c7c711239f8a3b0bb7a4fac8",
+                    "url": "https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm_icon.svg"
+                },
+                {
+                    "type": "file",
+                    "path": "com.jetbrains.WebStorm.metainfo.xml"
+                },
+                {
+                    "type": "file",
+                    "path": "idea.properties"
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "apply_extra",
+                    "commands": [
+                        "tar xzf webstorm.tar.gz --strip-components=1",
+                        "rm webstorm.tar.gz"
+                    ]
+                }
+            ]
         },
         {
-          "type": "extra-data",
-          "filename": "webstorm.tar.gz",
-          "only-arches": [
-            "aarch64"
-          ],
-          "sha256": "d4a474c7434878906ed9d3c92572ac61c6fe8eb7dc48653677e2ead1785f4551",
-          "size": 1174566314,
-          "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.2.5-aarch64.tar.gz",
-          "x-checker-data": {
-            "code": "WS",
-            "is-main-source": true,
-            "type": "jetbrains"
-          }
-        },
-        {
-          "type": "file",
-          "path": "com.jetbrains.WebStorm.desktop"
-        },
-        {
-          "type": "file",
-          "dest-filename": "com.jetbrains.WebStorm.svg",
-          "sha256": "122e91c48164cad32675a66a2d064c1c4b258343c7c711239f8a3b0bb7a4fac8",
-          "url": "https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm_icon.svg"
-        },
-        {
-          "type": "file",
-          "path": "com.jetbrains.WebStorm.metainfo.xml"
-        },
-        {
-          "type": "file",
-          "path": "idea.properties"
-        },
-        {
-          "type": "script",
-          "dest-filename": "apply_extra",
-          "commands": [
-            "tar xzf webstorm.tar.gz --strip-components=1",
-            "rm webstorm.tar.gz"
-          ]
+            "name": "ide-flatpak-wrapper",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Deditor_binary=/app/extra/bin/webstorm",
+                "-Deditor_title=WebStorm",
+                "-Dprogram_name=webstorm-wrapper",
+                "-Dfirst_run_template=README.md",
+                "-Dflagfile_prefix=flatpak-webstorm"
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "ide-flatpak-wrapper"
+                },
+                {
+                    "type": "file",
+                    "path": "README.md"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "ide-flatpak-wrapper",
-      "buildsystem": "meson",
-      "config-opts": [
-        "-Deditor_binary=/app/extra/bin/webstorm",
-        "-Deditor_title=WebStorm",
-        "-Dprogram_name=webstorm-wrapper",
-        "-Dfirst_run_template=README.md",
-        "-Dflagfile_prefix=flatpak-webstorm"
-      ],
-      "sources": [
-        {
-          "type": "dir",
-          "path": "ide-flatpak-wrapper"
-        },
-        {
-          "type": "file",
-          "path": "README.md"
-        }
-      ]
-    }
-  ]
+    ]
 }
