@@ -81,6 +81,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2025.2.5" date="2025-11-21">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538692/WebStorm-2025.2.5-252.28238.10-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Bug fixing</li>
+                </ul>
+            </description>
+        </release>
         <release version="2025.2.4" date="2025-10-23">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538676/WebStorm-2025.2.4-252.27397.92-build-Release-Notes</url>
             <description>
@@ -129,19 +137,6 @@
                     <li>Spellcheck should accommodate for umlauts</li>
                     <li>Initial comment with onboarding tips</li>
                     <li>terraform: required_providers autocompletion is not working.</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.2" date="2025-08-04">
-            <url type="details">https://blog.jetbrains.com/webstorm/2025/08/webstorm-2025-2/</url>
-            <description>
-                <ul>
-                    <li>TypeScript-Go language server: Support for the TypeScript-Go language server is now available in WebStorm.</li>
-                    <li>Baseline: WebStorm displays Web Platform Baseline information in quick documentation.</li>
-                    <li>Bun: Bun is auto-detected and suggested as a package manager, and WebStorm now automatically creates Bun run/debug configurations for scripts.</li>
-                    <li>AI: The AI chat is smarter, Junie is faster, and more.</li>
-                    <li>Framework and technology: WebStorm offers support for Angular’s in keyword, and the built-in formatter is now disabled when Prettier is used. Additional improvements include an updated Prisma LSP and more.</li>
-                    <li>UI/UX: The parameter info popup is easier to read and navigate.</li>
                 </ul>
             </description>
         </release>
