@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Development;IDE;
-Exec=webstorm-wrapper
+Exec=webstorm
 GenericName=JavaScript and TypeScript IDE
 Icon=com.jetbrains.WebStorm
 Keywords=development;javascript;webstorm;
