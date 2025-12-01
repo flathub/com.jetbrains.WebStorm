@@ -6,6 +6,6 @@ Icon=com.jetbrains.WebStorm
 Keywords=development;javascript;webstorm;
 Name=WebStorm
 StartupNotify=true
-StartupWMClass=webstorm
+StartupWMClass=jetbrains-webstorm
 Terminal=false
 Type=Application
