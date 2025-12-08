@@ -81,6 +81,21 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2025.3" date="2025-12-08">
+            <url type="details">https://blog.jetbrains.com/webstorm/2025/12/webstorm-2025-3/</url>
+            <description>
+                <ul>
+                    <li>Service‑powered type engine gradual enablement for more accurate TypeScript type evaluation.</li>
+                    <li>Enhanced module resolution and monorepo support, with improved handling of pnpm and Nx workspaces.</li>
+                    <li>Upgraded AI Assistant with Claude Agent and Junie integration in a single chat.</li>
+                    <li>Remote debugging for JavaScript projects in WSL, Docker, and dev containers, including the ability to launch a browser on your local machine during remote sessions.</li>
+                    <li>Webref‑aligned CSS syntax update, bringing support for the latest specs and adding new math functions like round(), rem(), and mod().</li>
+                    <li>Unified JavaScript Runtime settings page that consolidates Node.js, Bun, and Deno configuration.</li>
+                    <li>Vitest 4 support, enabling the correct discovery and execution of tests written for the latest Vitest version.</li>
+                </ul>
+                <p>This release also includes numerous fixes and quality‑of‑life enhancements for TypeScript, Angular, Vue, Astro, Prettier, and more.</p>
+            </description>
+        </release>
         <release version="2025.2.5" date="2025-11-21">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538692/WebStorm-2025.2.5-252.28238.10-build-Release-Notes</url>
             <description>
@@ -115,28 +130,6 @@
                     <li>LSP API: support textDocument/foldingRange request</li>
                     <li>LSP API: support inlay hints (textDocument/inlayHint request)</li>
                     <li>Remote CLI for forwarding browser handling to client device</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.2.1" date="2025-09-18">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538651/WebStorm-2025.2.1-252.25557.126-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>Angular 20: support void and exponentiation operators in templates</li>
-                    <li>Angular 20.1: add support for new binary assignment operators</li>
-                    <li>Prisma: multiple database schemas support</li>
-                    <li>Prisma: render LSP diagnostics in Markdown</li>
-                    <li>Angular 19: keydown.code." is a valid Angular key event binding</li>
-                    <li>Prisma: support for missing attributes and completions</li>
-                    <li>Prisma: support for sharding in 6.10</li>
-                    <li>GraphQL: Add support for descriptions on executable definitions</li>
-                    <li>Support TypeScript Native Previews (@typescript/native-preview) on WSL</li>
-                    <li>GraphQL: update Relay schema to support error handling</li>
-                    <li>GraphQL: support @oneOf directive spec</li>
-                    <li>Spellcheck should ignore missing accents in object names, functions, etc.</li>
-                    <li>Spellcheck should accommodate for umlauts</li>
-                    <li>Initial comment with onboarding tips</li>
-                    <li>terraform: required_providers autocompletion is not working.</li>
                 </ul>
             </description>
         </release>
