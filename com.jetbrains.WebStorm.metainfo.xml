@@ -82,7 +82,18 @@
     </screenshots>
     <releases>
         <release version="2025.3.1" date="2025-12-18">
-            <description></description>
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538702/WebStorm-2025.3.1-253.29346.143-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Astro: support quick doc for framework-specific parts</li>
+                    <li>Provide a color preview for CSS color-mix()</li>
+                    <li>Indicate when Tailwind LS fails on initialization</li>
+                    <li>LSP: support call hierarchy requests</li>
+                    <li>LSP: support type hierarchy requests</li>
+                    <li>LSP: support Extend Selection / Shrink Selection (textDocument/selectionRange request)</li>
+                    <li>DevKit: check that content module used as a dependency is visible</li>
+                </ul>
+            </description>
         </release>
         <release version="2025.3" date="2025-12-08">
             <url type="details">https://blog.jetbrains.com/webstorm/2025/12/webstorm-2025-3/</url>
