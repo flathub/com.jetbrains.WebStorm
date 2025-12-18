@@ -137,15 +137,5 @@
                 </ul>
             </description>
         </release>
-        <release version="2025.2.2" date="2025-09-18">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538660/WebStorm-2025.2.2-252.26199.162-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>LSP API: support textDocument/foldingRange request</li>
-                    <li>LSP API: support inlay hints (textDocument/inlayHint request)</li>
-                    <li>Remote CLI for forwarding browser handling to client device</li>
-                </ul>
-            </description>
-        </release>
     </releases>
 </component>
