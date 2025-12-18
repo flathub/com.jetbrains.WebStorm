@@ -81,6 +81,20 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2025.3.1" date="2025-12-18">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538702/WebStorm-2025.3.1-253.29346.143-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Astro: support quick doc for framework-specific parts</li>
+                    <li>Provide a color preview for CSS color-mix()</li>
+                    <li>Indicate when Tailwind LS fails on initialization</li>
+                    <li>LSP: support call hierarchy requests</li>
+                    <li>LSP: support type hierarchy requests</li>
+                    <li>LSP: support Extend Selection / Shrink Selection (textDocument/selectionRange request)</li>
+                    <li>DevKit: check that content module used as a dependency is visible</li>
+                </ul>
+            </description>
+        </release>
         <release version="2025.3" date="2025-12-08">
             <url type="details">https://blog.jetbrains.com/webstorm/2025/12/webstorm-2025-3/</url>
             <description>
@@ -120,16 +134,6 @@
                     <li>Angular 20.2: Support as aliases on else if blocks</li>
                     <li>Produce an inspection warning when .length is accessed on an uncalled signal</li>
                     <li>Popup for navigating between Angular component files</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.2.2" date="2025-09-18">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538660/WebStorm-2025.2.2-252.26199.162-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>LSP API: support textDocument/foldingRange request</li>
-                    <li>LSP API: support inlay hints (textDocument/inlayHint request)</li>
-                    <li>Remote CLI for forwarding browser handling to client device</li>
                 </ul>
             </description>
         </release>
