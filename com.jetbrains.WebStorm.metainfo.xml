@@ -81,6 +81,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2025.3.1.1" date="2026-01-08">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538703/WebStorm-2025.3.1.1-253.29346.242-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Bug fix</li>
+                </ul>
+            </description>
+        </release>
         <release version="2025.3.1" date="2025-12-18">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538702/WebStorm-2025.3.1-253.29346.143-build-Release-Notes</url>
             <description>
