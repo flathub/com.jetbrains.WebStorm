@@ -46,6 +46,7 @@
         <internet>offline-only</internet>
     </supports>
     <description>
+        <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.**</p>
         <p>Integrated development environment for JavaScript, TypeScript, and related technologies, is one of the most popular software development tools from JetBrains. It lets you get straight to coding and makes it easy to tackle the most challenging tasks, like Git merge conflict resolution or renaming a symbol across multiple files.</p>
         <p>Here are some key features you get with WebStorm:</p>
         <ul>
