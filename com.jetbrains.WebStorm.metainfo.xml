@@ -82,6 +82,20 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2025.3.2" date="2026-01-22">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538708/WebStorm-2025.3.2-253.30387.83-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Detection of the “use no memo” and “use memo” directives</li>
+                    <li>Bump @vue/typescript-plugin 3.1.8</li>
+                    <li>When using an HTTP proxy, the IDE should prompt to re-enter authentication credentials if the proxy server returns a 407 status code</li>
+                    <li>Implement support for synchronized output mode</li>
+                    <li>Terragrunt Syntax Support in Terraform Plugin</li>
+                    <li>Stabilize progress bar position between single and multiple progresses</li>
+                    <li>Implement new progresses design</li>
+                </ul>
+            </description>
+        </release>
         <release version="2025.3.1.1" date="2026-01-08">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538703/WebStorm-2025.3.1.1-253.29346.242-build-Release-Notes</url>
             <description>
@@ -124,25 +138,6 @@
             <description>
                 <ul>
                     <li>Bug fixing</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.2.4" date="2025-10-23">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538676/WebStorm-2025.2.4-252.27397.92-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>Support ES6 inside jade templates and mixins</li>
-                    <li>Astro: support expressions in HTML raw text content</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.2.3" date="2025-10-02">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538669/WebStorm-2025.2.3-252.26830.93-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>Angular 20.2: Support as aliases on else if blocks</li>
-                    <li>Produce an inspection warning when .length is accessed on an uncalled signal</li>
-                    <li>Popup for navigating between Angular component files</li>
                 </ul>
             </description>
         </release>
