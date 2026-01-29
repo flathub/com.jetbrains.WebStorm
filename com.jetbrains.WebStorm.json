@@ -63,9 +63,7 @@
                 },
                 {
                     "type": "file",
-                    "dest-filename": "com.jetbrains.WebStorm.svg",
-                    "sha256": "122e91c48164cad32675a66a2d064c1c4b258343c7c711239f8a3b0bb7a4fac8",
-                    "url": "https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm_icon.svg"
+                    "path": "com.jetbrains.WebStorm.svg"
                 },
                 {
                     "type": "file",
