@@ -83,7 +83,13 @@
     </screenshots>
     <releases>
         <release version="2025.3.3" date="2026-02-19">
-            <description></description>
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538722/WebStorm-2025.3.3-253.31033.133-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Allow customers to bundle their own plugins in IDE distributions</li>
+                    <li>Make Shift+Enter insert a new line in ClaudeCode</li>
+                </ul>
+            </description>
         </release>
         <release version="2025.3.2" date="2026-01-22">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538708/WebStorm-2025.3.2-253.30387.83-build-Release-Notes</url>
@@ -134,14 +140,6 @@
                     <li>Vitest 4 support, enabling the correct discovery and execution of tests written for the latest Vitest version.</li>
                 </ul>
                 <p>This release also includes numerous fixes and quality‑of‑life enhancements for TypeScript, Angular, Vue, Astro, Prettier, and more.</p>
-            </description>
-        </release>
-        <release version="2025.2.5" date="2025-11-21">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538692/WebStorm-2025.2.5-252.28238.10-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>Bug fixing</li>
-                </ul>
             </description>
         </release>
     </releases>
