@@ -33,9 +33,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "sha256": "4fc1eb0af1bd2816fe76081e7edc5b0aed43c942aca96c28b73af52a6a5dcdae",
-                    "size": 1077575977,
-                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.3.tar.gz",
+                    "sha256": "7bbdadf9f70f56667b99aa01c91f34d05fee993f1359e062e4043608ca7b6dbb",
+                    "size": 1077824124,
+                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.4.tar.gz",
                     "x-checker-data": {
                         "code": "WS",
                         "is-main-source": true,
@@ -48,9 +48,9 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "sha256": "3b76723336b3737388a6a84114314173a21799a818b2f1c90e0323103502db36",
-                    "size": 1072937620,
-                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.3-aarch64.tar.gz",
+                    "sha256": "6bb31ce76b741df41fb1492d55a4630b2905947bccc2d3fbd2249414259ab56f",
+                    "size": 1073216609,
+                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.4-aarch64.tar.gz",
                     "x-checker-data": {
                         "code": "WS",
                         "is-main-source": true,
