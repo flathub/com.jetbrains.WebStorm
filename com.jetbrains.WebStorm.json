@@ -14,7 +14,8 @@
         "--share=network",
         "--socket=x11",
         "--talk-name=org.freedesktop.Notifications",
-        "--talk-name=org.freedesktop.secrets"
+        "--talk-name=org.freedesktop.secrets",
+        "--talk-name=org.freedesktop.FileManager1"
     ],
     "modules": [
         {
