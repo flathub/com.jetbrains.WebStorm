@@ -83,7 +83,13 @@
     </screenshots>
     <releases>
         <release version="2025.3.4" date="2026-03-18">
-            <description></description>
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538729/WebStorm-2025.3.4-253.32098.39-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Astro: Use component prop completion from Language Server</li>
+                    <li>Advanced option to disable interactive environment variables in IJent</li>
+                </ul>
+            </description>
         </release>
         <release version="2025.3.3" date="2026-02-19">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538722/WebStorm-2025.3.3-253.31033.133-build-Release-Notes</url>
@@ -105,14 +111,6 @@
                     <li>Terragrunt Syntax Support in Terraform Plugin</li>
                     <li>Stabilize progress bar position between single and multiple progresses</li>
                     <li>Implement new progresses design</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.3.1.1" date="2026-01-08">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538703/WebStorm-2025.3.1.1-253.29346.242-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>Bug fix</li>
                 </ul>
             </description>
         </release>
