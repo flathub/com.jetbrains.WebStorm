@@ -12,7 +12,8 @@
         "--filesystem=xdg-run/keyring",
         "--share=ipc",
         "--share=network",
-        "--socket=x11",
+        "--socket=fallback-x11",
+        "--socket=wayland",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.FileManager1"
