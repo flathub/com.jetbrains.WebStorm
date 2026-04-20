@@ -4,6 +4,7 @@ Exec=webstorm-wrapper %F
 GenericName=JavaScript and TypeScript IDE
 Icon=com.jetbrains.WebStorm
 Keywords=development;javascript;webstorm;
+MimeType=text/plain;inode/directory;
 Name=WebStorm
 StartupNotify=true
 StartupWMClass=jetbrains-webstorm
