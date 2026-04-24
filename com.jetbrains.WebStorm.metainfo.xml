@@ -83,7 +83,19 @@
     </screenshots>
     <releases>
         <release version="2026.1.1" date="2026-04-24">
-            <description></description>
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538738/WebStorm-2026.1.1-261.23567.141-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Enable --strict by default</li>
+                    <li>React Add Ability To Extract Component To Its Own File</li>
+                    <li>Svelte: improve support for namespaced components</li>
+                    <li>Svelte 5: TypeScript in markup expressions</li>
+                    <li>LSP: support LSP server-based symbol rename (textDocument/rename request)</li>
+                    <li>Allow automatic reporting of exceptions for remote development</li>
+                    <li>When using an HTTP proxy, the IDE should prompt to re-enter authentication credentials if the proxy server returns a 407 status code</li>
+                    <li>[MCP Server] Run tests tool</li>
+                </ul>
+            </description>
         </release>
         <release version="2026.1" date="2026-03-25">
             <url type="details">https://blog.jetbrains.com/webstorm/2026/03/webstorm-2026-1/</url>
@@ -134,20 +146,6 @@
                     <li>Terragrunt Syntax Support in Terraform Plugin</li>
                     <li>Stabilize progress bar position between single and multiple progresses</li>
                     <li>Implement new progresses design</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.3.1" date="2025-12-18">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538702/WebStorm-2025.3.1-253.29346.143-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>Astro: support quick doc for framework-specific parts</li>
-                    <li>Provide a color preview for CSS color-mix()</li>
-                    <li>Indicate when Tailwind LS fails on initialization</li>
-                    <li>LSP: support call hierarchy requests</li>
-                    <li>LSP: support type hierarchy requests</li>
-                    <li>LSP: support Extend Selection / Shrink Selection (textDocument/selectionRange request)</li>
-                    <li>DevKit: check that content module used as a dependency is visible</li>
                 </ul>
             </description>
         </release>
