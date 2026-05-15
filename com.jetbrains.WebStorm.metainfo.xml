@@ -82,6 +82,9 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2026.1.2" date="2026-05-15">
+            <description></description>
+        </release>
         <release version="2026.1.1" date="2026-04-24">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538738/WebStorm-2026.1.1-261.23567.141-build-Release-Notes</url>
             <description>
