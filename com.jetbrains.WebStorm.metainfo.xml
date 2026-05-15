@@ -82,6 +82,17 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2026.1.2" date="2026-05-15">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538757/WebStorm-2026.1.2-261.24374.125-build-Release-Notes</url>
+            <description>
+                <ul>
+                    <li>Support service-powered type engine in TS with Svelte plugin</li>
+                    <li>LSP: support formatting on the fly as you type (textDocument/onTypeFormatting request)</li>
+                    <li>Sync pluginSync properties from backend</li>
+                    <li>Deploy IJENT on Windows</li>
+                </ul>
+            </description>
+        </release>
         <release version="2026.1.1" date="2026-04-24">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538738/WebStorm-2026.1.1-261.23567.141-build-Release-Notes</url>
             <description>
@@ -132,20 +143,6 @@
                 <ul>
                     <li>Allow customers to bundle their own plugins in IDE distributions</li>
                     <li>Make Shift+Enter insert a new line in ClaudeCode</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.3.2" date="2026-01-22">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538708/WebStorm-2025.3.2-253.30387.83-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>Detection of the “use no memo” and “use memo” directives</li>
-                    <li>Bump @vue/typescript-plugin 3.1.8</li>
-                    <li>When using an HTTP proxy, the IDE should prompt to re-enter authentication credentials if the proxy server returns a 407 status code</li>
-                    <li>Implement support for synchronized output mode</li>
-                    <li>Terragrunt Syntax Support in Terraform Plugin</li>
-                    <li>Stabilize progress bar position between single and multiple progresses</li>
-                    <li>Implement new progresses design</li>
                 </ul>
             </description>
         </release>
