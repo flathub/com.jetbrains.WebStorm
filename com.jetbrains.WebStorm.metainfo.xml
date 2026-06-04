@@ -82,8 +82,18 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2026.1.3" date="2026-06-04">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538765</url>
+            <description>
+                <ul>
+                    <li>Support reroute hook (don't mark as unused)</li>
+                    <li>Ranking in Plugins-Installed search</li>
+                    <li>Diagnostics: provide plugins with freeze detection information after UI freeze</li>
+                </ul>
+            </description>
+        </release>
         <release version="2026.1.2" date="2026-05-15">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538757/WebStorm-2026.1.2-261.24374.125-build-Release-Notes</url>
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538757</url>
             <description>
                 <ul>
                     <li>Support service-powered type engine in TS with Svelte plugin</li>
@@ -94,7 +104,7 @@
             </description>
         </release>
         <release version="2026.1.1" date="2026-04-24">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538738/WebStorm-2026.1.1-261.23567.141-build-Release-Notes</url>
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538738</url>
             <description>
                 <ul>
                     <li>Enable --strict by default</li>
@@ -129,20 +139,11 @@
             </description>
         </release>
         <release version="2025.3.4" date="2026-03-18">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538729/WebStorm-2025.3.4-253.32098.39-build-Release-Notes</url>
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538729</url>
             <description>
                 <ul>
                     <li>Astro: Use component prop completion from Language Server</li>
                     <li>Advanced option to disable interactive environment variables in IJent</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2025.3.3" date="2026-02-19">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538722/WebStorm-2025.3.3-253.31033.133-build-Release-Notes</url>
-            <description>
-                <ul>
-                    <li>Allow customers to bundle their own plugins in IDE distributions</li>
-                    <li>Make Shift+Enter insert a new line in ClaudeCode</li>
                 </ul>
             </description>
         </release>
