@@ -147,14 +147,5 @@
                 <p>This release also includes numerous fixes and quality-of-life improvements to the support for TypeScript, React, Angular, Vue, Astro, Prettier, and more.</p>
             </description>
         </release>
-        <release version="2025.3.4" date="2026-03-18">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538729</url>
-            <description>
-                <ul>
-                    <li>Astro: Use component prop completion from Language Server</li>
-                    <li>Advanced option to disable interactive environment variables in IJent</li>
-                </ul>
-            </description>
-        </release>
     </releases>
 </component>
