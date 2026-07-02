@@ -82,6 +82,15 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2026.1.4" date="2026-07-02">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538778</url>
+            <description>
+                <ul>
+                    <li>Allow disabling source maps when debugging</li>
+                    <li>LSP: support notebookDocument lsp methods internally</li>
+                </ul>
+            </description>
+        </release>
         <release version="2026.1.3" date="2026-06-04">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538765</url>
             <description>
@@ -136,15 +145,6 @@
                     <li>Support for modern CSS color spaces</li>
                 </ul>
                 <p>This release also includes numerous fixes and quality-of-life improvements to the support for TypeScript, React, Angular, Vue, Astro, Prettier, and more.</p>
-            </description>
-        </release>
-        <release version="2025.3.4" date="2026-03-18">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538729</url>
-            <description>
-                <ul>
-                    <li>Astro: Use component prop completion from Language Server</li>
-                    <li>Advanced option to disable interactive environment variables in IJent</li>
-                </ul>
             </description>
         </release>
     </releases>
