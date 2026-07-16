@@ -138,25 +138,5 @@
                 </ul>
             </description>
         </release>
-        <release version="2026.1" date="2026-03-25">
-            <url type="details">https://blog.jetbrains.com/webstorm/2026/03/webstorm-2026-1/</url>
-            <description>
-                <ul>
-                    <li>Junie, Claude Agent, and Codex available directly in the AI chat</li>
-                    <li>ACP Registry for discovering and installing agents</li>
-                    <li>Next edit suggestions</li>
-                    <li>Service-powered TypeScript engine enabled by default</li>
-                    <li>Alignment with TypeScript 6</li>
-                    <li>String-literal import/export support</li>
-                    <li>Highlighting for new React directives</li>
-                    <li>Angular 21 template syntax</li>
-                    <li>Vue TypeScript integration updates</li>
-                    <li>Astro language server configuration</li>
-                    <li>Svelte generics support</li>
-                    <li>Support for modern CSS color spaces</li>
-                </ul>
-                <p>This release also includes numerous fixes and quality-of-life improvements to the support for TypeScript, React, Angular, Vue, Astro, Prettier, and more.</p>
-            </description>
-        </release>
     </releases>
 </component>
