@@ -35,8 +35,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "sha256": "04fb8c4f06775e493848144276067cbc2a046238536b777c0853aaac695c1a0d",
-                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.4.tar.gz",
+                    "sha256": "cea72b20a973da18badeaf7a9aec949749ae555d748e1b3084aee789679e8dd5",
+                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2026.2.tar.gz",
                     "x-checker-data": {
                         "code": "WS",
                         "is-main-source": true,
@@ -49,8 +49,8 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "sha256": "7fd29e9ccab582d95dce906b69207039bff5f3a590c21d69b396298f9268394d",
-                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.4-aarch64.tar.gz",
+                    "sha256": "224af5a434af68f966266ee0abf108e0642e0ada301c4ea6c0a511e21fb491b1",
+                    "url": "https://download.jetbrains.com/webstorm/WebStorm-2026.2-aarch64.tar.gz",
                     "x-checker-data": {
                         "code": "WS",
                         "is-main-source": true,

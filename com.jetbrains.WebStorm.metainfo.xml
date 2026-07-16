@@ -82,6 +82,9 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2026.2" date="2026-07-16">
+            <description></description>
+        </release>
         <release version="2026.1.4" date="2026-07-02">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538778</url>
             <description>
