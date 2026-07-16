@@ -82,6 +82,17 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2026.2" date="2026-07-16">
+            <url type="details">https://blog.jetbrains.com/webstorm/2026/07/webstorm-2026-2/</url>
+            <description>
+                <ul>
+                    <li>A rewritten compiler for faster performance in large TypeScript codebases, available without project migration</li>
+                    <li>Native GitHub Copilot integration – Access the AI coding assistant from WebStorm’s AI chat with no plugin setup required</li>
+                    <li>Agent skills manager – Give your AI agents reusable stack knowledge for every session</li>
+                    <li>Full React 19 support in React Buddy</li>
+                </ul>
+            </description>
+        </release>
         <release version="2026.1.4" date="2026-07-02">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538778</url>
             <description>
@@ -125,26 +136,6 @@
                     <li>When using an HTTP proxy, the IDE should prompt to re-enter authentication credentials if the proxy server returns a 407 status code</li>
                     <li>[MCP Server] Run tests tool</li>
                 </ul>
-            </description>
-        </release>
-        <release version="2026.1" date="2026-03-25">
-            <url type="details">https://blog.jetbrains.com/webstorm/2026/03/webstorm-2026-1/</url>
-            <description>
-                <ul>
-                    <li>Junie, Claude Agent, and Codex available directly in the AI chat</li>
-                    <li>ACP Registry for discovering and installing agents</li>
-                    <li>Next edit suggestions</li>
-                    <li>Service-powered TypeScript engine enabled by default</li>
-                    <li>Alignment with TypeScript 6</li>
-                    <li>String-literal import/export support</li>
-                    <li>Highlighting for new React directives</li>
-                    <li>Angular 21 template syntax</li>
-                    <li>Vue TypeScript integration updates</li>
-                    <li>Astro language server configuration</li>
-                    <li>Svelte generics support</li>
-                    <li>Support for modern CSS color spaces</li>
-                </ul>
-                <p>This release also includes numerous fixes and quality-of-life improvements to the support for TypeScript, React, Angular, Vue, Astro, Prettier, and more.</p>
             </description>
         </release>
     </releases>

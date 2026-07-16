@@ -1,10 +1,10 @@
-# @EDITOR_TITLE@ unofficial Flatpak wrapper
+# WebStorm unofficial Flatpak wrapper
 This version is running inside a container and is therefore not able  to access SDKs on your host system!
 
 ## How to run commands on the host system
-To execute commands on the host system, run @EDITOR_TITLE@ with:
+To execute commands on the host system, run WebStorm with:
 
-`$ flatpak run --talk-name=org.freedesktop.Flatpak @FLATPAK_ID@`
+`$ flatpak run --talk-name=org.freedesktop.Flatpak com.jetbrains.WebStorm`
 
 And this inside the sandbox:
 
@@ -16,7 +16,7 @@ This is are considered a security issue, use at your risk.
 
 To make it permanent
 
-`$ flatpak override --user < --talk-name=org.freedesktop.Flatpak @FLATPAK_ID@`
+`$ flatpak override --user < --talk-name=org.freedesktop.Flatpak com.jetbrains.WebStorm`
 
 To make the Integrated Terminal automatically use the host system's shell,
 you can modify `Settings > Tools > Terminal > Shell path` to 
@@ -27,7 +27,7 @@ you can modify `Settings > Tools > Terminal > Shell path` to
 This flatpak provides a standard development environment (gcc, python, etc).
 To see what's available:
 ```
-$ flatpak run --command=sh @FLATPAK_ID@
+$ flatpak run --command=sh com.jetbrains.WebStorm
 $ ls /usr/bin (shared runtime)
 $ ls /app/bin (bundled with this flatpak)
 ```
