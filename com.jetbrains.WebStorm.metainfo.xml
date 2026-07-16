@@ -83,7 +83,15 @@
     </screenshots>
     <releases>
         <release version="2026.2" date="2026-07-16">
-            <description></description>
+            <url type="details">https://blog.jetbrains.com/webstorm/2026/07/webstorm-2026-2/</url>
+            <description>
+                <ul>
+                    <li>A rewritten compiler for faster performance in large TypeScript codebases, available without project migration</li>
+                    <li>Native GitHub Copilot integration – Access the AI coding assistant from WebStorm’s AI chat with no plugin setup required</li>
+                    <li>Agent skills manager – Give your AI agents reusable stack knowledge for every session</li>
+                    <li>Full React 19 support in React Buddy</li>
+                </ul>
+            </description>
         </release>
         <release version="2026.1.4" date="2026-07-02">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538778</url>
