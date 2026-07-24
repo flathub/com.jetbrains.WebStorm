@@ -130,20 +130,5 @@
                 </ul>
             </description>
         </release>
-        <release version="2026.1.1" date="2026-04-24">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538738</url>
-            <description>
-                <ul>
-                    <li>Enable --strict by default</li>
-                    <li>React Add Ability To Extract Component To Its Own File</li>
-                    <li>Svelte: improve support for namespaced components</li>
-                    <li>Svelte 5: TypeScript in markup expressions</li>
-                    <li>LSP: support LSP server-based symbol rename (textDocument/rename request)</li>
-                    <li>Allow automatic reporting of exceptions for remote development</li>
-                    <li>When using an HTTP proxy, the IDE should prompt to re-enter authentication credentials if the proxy server returns a 407 status code</li>
-                    <li>[MCP Server] Run tests tool</li>
-                </ul>
-            </description>
-        </release>
     </releases>
 </component>
