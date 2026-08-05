@@ -82,7 +82,16 @@
     </screenshots>
     <releases>
         <release version="2026.2.1" date="2026-08-04">
-            <description></description>
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538854</url>
+            <description>
+                <ul>
+                    <li>Figma Connect: set up Figma skill</li>
+                    <li>Figma Layers panel: drag a node to the terminal should insert its node id</li>
+                    <li>Add "Restart Tailwind CSS Service" action to "Search Everywhere"</li>
+                    <li>TypeScript GO: use getSignatureHelp to provide parameter info</li>
+                    <li>Remdev skills for writing/refactoring code for split mode</li>
+                </ul>
+            </description>
         </release>
         <release version="2026.2.0.1" date="2026-07-23">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538783</url>
@@ -119,17 +128,6 @@
                     <li>Support reroute hook (don't mark as unused)</li>
                     <li>Ranking in Plugins-Installed search</li>
                     <li>Diagnostics: provide plugins with freeze detection information after UI freeze</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2026.1.2" date="2026-05-15">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538757</url>
-            <description>
-                <ul>
-                    <li>Support service-powered type engine in TS with Svelte plugin</li>
-                    <li>LSP: support formatting on the fly as you type (textDocument/onTypeFormatting request)</li>
-                    <li>Sync pluginSync properties from backend</li>
-                    <li>Deploy IJENT on Windows</li>
                 </ul>
             </description>
         </release>
