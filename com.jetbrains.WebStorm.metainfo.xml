@@ -81,6 +81,15 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2026.2.3" date="2026-09-17">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538866</url>
+            <description>
+                <ul>
+                    <li>Svelte: support comments in HTML tags</li>
+                    <li>The PlantUML Markdown Extension is too old</li>
+                </ul>
+            </description>
+        </release>
         <release version="2026.2.2" date="2026-09-03">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538863</url>
             <description>
@@ -107,14 +116,6 @@
                     <li>Add "Restart Tailwind CSS Service" action to "Search Everywhere"</li>
                     <li>TypeScript GO: use getSignatureHelp to provide parameter info</li>
                     <li>Remdev skills for writing/refactoring code for split mode</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2026.2.0.1" date="2026-07-23">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538783</url>
-            <description>
-                <ul>
-                    <li>Bugfix</li>
                 </ul>
             </description>
         </release>
