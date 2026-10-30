@@ -2,7 +2,7 @@
 <component type="desktop-application">
     <id>com.jetbrains.WebStorm</id>
     <metadata_license>CC0-1.0</metadata_license>
-    <project_license>LicenseRef-proprietary</project_license>
+    <project_license>LicenseRef-proprietary=https://www.jetbrains.com/legal/docs/toolbox/user/</project_license>
     <name>WebStorm</name>
     <launchable type="desktop-id">com.jetbrains.WebStorm.desktop</launchable>
     <update_contact>idea@jetbrains.com</update_contact>
