@@ -99,47 +99,55 @@
         <release version="2026.2.4" date="2026-10-30">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538876</url>
             <description>
+                <p>What's fixed:</p>
                 <ul>
-                    <li>Provide key for disabling fingerprint and join token in RD join link</li>
+                    <li>We've improved the Vitest support, so Vitest 5 <code>testNamePattern</code> no longer breaks the test running functionality.</li>
+                    <li>We've restored error highlighting for untyped function parameters in TypeScript files with the AngularService running in Angular projects.</li>
+                    <li>We've improved performance when resolving references in Angular templates.</li>
+                    <li>We've implemented correct type inference in Angular templates with the service-powered type engine used in Angular projects.</li>
+                    <li>We've restored resolution for <code>bootstrap-vue</code> components.</li>
+                    <li>Oracle's fixes have been integrated into JBR.</li>
                 </ul>
+                <p>For more details, please see the release notes.</p>
             </description>
         </release>
         <release version="2026.2.3" date="2026-09-17">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538866</url>
             <description>
+                <p>What's fixed:</p>
                 <ul>
-                    <li>Svelte: support comments in HTML tags</li>
-                    <li>The PlantUML Markdown Extension is too old</li>
+                    <li>We've updated the empty-state text in the <em>Currently selected</em> section of the <em>Figma Connect</em> tool window for the sake of clarity.</li>
+                    <li>We've fixed inconsistent <em>AI Assistant plugin</em> installation status shown in the <em> Figma Connect</em> wizard.</li>
+                    <li>We've fixed the <code>Unexpected term</code> error in Sass when namespaced functions or variables are used as <code>calc()</code> arguments.</li>
+                    <li>We've fixed a problem with loading a base reporter from <code>./lib/reporters/base.js</code> when running Mocha 12 tests.</li>
+                    <li>We've fixed parsing in Angular applications, so <code>@default never</code> in template <code>@switch</code> blocks is no longer reported as unknown block.</li>
+                    <li>We've fixed the issue with CSS pseudo-selectors being reported as unknown on disabling the <em>Images</em> plugin.</li>
+                    <li>We've added support for comments in HTML tags in Svelte applications.</li>
                 </ul>
+                <p>For more details, please see the release notes.</p>
             </description>
         </release>
         <release version="2026.2.2" date="2026-09-03">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538863</url>
             <description>
                 <ul>
-                    <li>Storybook Feedback Form</li>
-                    <li>Story tree does not refresh for Svelte CSF stories (*.stories.svelte)</li>
-                    <li>Use released TypeScript 7.0.2 from node_modules with service-powered type engine</li>
-                    <li>Use any TypeScript 7.0.x from node_modules with the service-powered type engine</li>
-                    <li>Display plugin IDs in settings</li>
-                    <li>Introduce NoAutomaticReset interface for Configurables that should not be auto-reset on focus regain</li>
-                    <li>MCP Settings: i18n for MCP settings</li>
-                    <li>Support parallel GitHub Actions steps</li>
-                    <li>Support OSC8 terminal hyperlinks in Reworked terminal</li>
-                    <li>Add assertion helper for missing reference injection in InjectionTestFixture.kt</li>
+                    <li>Updating a backend-only plugin no longer causes updating the plugin on the frontend.</li>
+                    <li>We've fixed an IDE freeze in Dev Containers.</li>
+                    <li>We've improved the appearance of the <em>Settings | Tools | MCP Server | Exposed Tools</em> page.</li>
                 </ul>
+                <p>For more details, please see the release notes.</p>
             </description>
         </release>
         <release version="2026.2.1" date="2026-08-04">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538854</url>
             <description>
+                <p>What's fixed:</p>
                 <ul>
-                    <li>Figma Connect: set up Figma skill</li>
-                    <li>Figma Layers panel: drag a node to the terminal should insert its node id</li>
-                    <li>Add "Restart Tailwind CSS Service" action to "Search Everywhere"</li>
-                    <li>TypeScript GO: use getSignatureHelp to provide parameter info</li>
-                    <li>Remdev skills for writing/refactoring code for split mode</li>
+                    <li>We've introduced the <em>Figma Connect for WebStorm</em> plugin. Select a layer in your Figma file and get its design context directly in WebStorm. The context is attached to the <em>AI Chat</em> automatically. Requires a one-time setup.</li>
+                    <li>We've bundled a <em>Chrome DevTools CLI</em> skill into WebStorm, so AI agents can open Chrome, read console logs and network requests, take screenshots, and interact with the running page. One-time package installation on first use, automatic startup after that.</li>
+                    <li>We've restored compatibility between the Svelte plugin and GoLand 2026.2.</li>
                 </ul>
+                <p>For more details, please see the release notes.</p>
             </description>
         </release>
     </releases>
