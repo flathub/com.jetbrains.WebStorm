@@ -83,7 +83,16 @@
     <releases>
         <release version="2026.3" date="2026-11-05">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538878</url>
-            <description></description>
+            <p>What's fixed:</p>
+            <ul>
+                <li>We've introduced <em>Air</em>, a new layer for agentic development, so you can work with the coding agents of your choice, as well as run, track, and verify multi-agent workflows inside WebStorm.</li>
+                <li>We've introduced support for the <em>Figma Connect</em>, <em>Chrome Connect</em>, and <em>Storybook Connect</em> plugins and enhanced it with the possibility to use these plugins with <em>Air</em>.</li>
+                <li>We've improved the debugging experience by adding support for flexible stepping configuration.</li>
+                <li>We've extended support for Markdown.</li>
+                <li>We've enhanced support for TypeScript 7.</li>
+                <li>We've introduced numerous improvements in support for frameworks and technologies.</li>
+            </ul>
+            <p>For more details, please see the release notes.</p>
         </release>
         <release version="2026.2.4" date="2026-10-30">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538876</url>
