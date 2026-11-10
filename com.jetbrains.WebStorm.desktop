@@ -1,12 +1,12 @@
 [Desktop Entry]
 Categories=Development;IDE;
 Exec=webstorm-wrapper %F
-GenericName=JavaScript and TypeScript IDE
+GenericName=JavaScript and TypeScript IDE for you and your agents
 Icon=com.jetbrains.WebStorm
 Keywords=development;javascript;webstorm;
 MimeType=text/plain;inode/directory;
 Name=WebStorm
 StartupNotify=true
-StartupWMClass=jetbrains-webstorm
+StartupWMClass=com.jetbrains.WebStorm
 Terminal=false
 Type=Application
