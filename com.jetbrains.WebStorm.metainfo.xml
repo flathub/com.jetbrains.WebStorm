@@ -6,7 +6,7 @@
     <name>WebStorm</name>
     <launchable type="desktop-id">com.jetbrains.WebStorm.desktop</launchable>
     <update_contact>idea@jetbrains.com</update_contact>
-    <summary>JavaScript and TypeScript IDE</summary>
+    <summary>JavaScript and TypeScript IDE for you and your agents</summary>
     <url type="bugtracker">https://youtrack.jetbrains.com/issues/WEB/</url>
     <url type="help">https://www.jetbrains.com/help/webstorm</url>
     <url type="homepage">https://www.jetbrains.com/webstorm/</url>
@@ -32,14 +32,12 @@
         <keyword>ide</keyword>
     </keywords>
     <requires>
-        <memory>2048</memory>
+        <memory>8192</memory>
         <control>keyboard</control>
         <control>pointing</control>
-        <display_length compare="ge">768</display_length>
+        <display_length>720</display_length>
     </requires>
     <recommends>
-        <memory>8192</memory>
-        <display_length compare="ge">1080</display_length>
         <internet>always</internet>
     </recommends>
     <supports>
