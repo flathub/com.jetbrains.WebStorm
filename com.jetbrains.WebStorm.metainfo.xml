@@ -144,17 +144,5 @@
                 <p>For more details, please see the release notes.</p>
             </description>
         </release>
-        <release version="2026.2.1" date="2026-08-04">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538854</url>
-            <description>
-                <p>What's fixed:</p>
-                <ul>
-                    <li>We've introduced the <em>Figma Connect for WebStorm</em> plugin. Select a layer in your Figma file and get its design context directly in WebStorm. The context is attached to the <em>AI Chat</em> automatically. Requires a one-time setup.</li>
-                    <li>We've bundled a <em>Chrome DevTools CLI</em> skill into WebStorm, so AI agents can open Chrome, read console logs and network requests, take screenshots, and interact with the running page. One-time package installation on first use, automatic startup after that.</li>
-                    <li>We've restored compatibility between the Svelte plugin and GoLand 2026.2.</li>
-                </ul>
-                <p>For more details, please see the release notes.</p>
-            </description>
-        </release>
     </releases>
 </component>
