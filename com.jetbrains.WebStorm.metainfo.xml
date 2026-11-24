@@ -78,7 +78,15 @@
             <caption>Efficiency-boosting features</caption>
         </screenshot>
     </screenshots>
+    <!-- https://data.services.jetbrains.com/products/releases?code=WS&type=release&latest=true -->
     <releases>
+        <release version="2026.3.0.1" date="2026-11-24">
+            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538887</url>
+            <description>
+                <p>WebStorm 2026.3.0.1 is out, fixing a security issue.</p>
+                <p>For more details, please refer to the release notes.</p>
+            </description>
+        </release>
         <release version="2026.3" date="2026-11-05">
             <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538878</url>
             <description>
@@ -132,18 +140,6 @@
                     <li>Updating a backend-only plugin no longer causes updating the plugin on the frontend.</li>
                     <li>We've fixed an IDE freeze in Dev Containers.</li>
                     <li>We've improved the appearance of the <em>Settings | Tools | MCP Server | Exposed Tools</em> page.</li>
-                </ul>
-                <p>For more details, please see the release notes.</p>
-            </description>
-        </release>
-        <release version="2026.2.1" date="2026-08-04">
-            <url type="details">https://youtrack.jetbrains.com/articles/WEB-A-233538854</url>
-            <description>
-                <p>What's fixed:</p>
-                <ul>
-                    <li>We've introduced the <em>Figma Connect for WebStorm</em> plugin. Select a layer in your Figma file and get its design context directly in WebStorm. The context is attached to the <em>AI Chat</em> automatically. Requires a one-time setup.</li>
-                    <li>We've bundled a <em>Chrome DevTools CLI</em> skill into WebStorm, so AI agents can open Chrome, read console logs and network requests, take screenshots, and interact with the running page. One-time package installation on first use, automatic startup after that.</li>
-                    <li>We've restored compatibility between the Svelte plugin and GoLand 2026.2.</li>
                 </ul>
                 <p>For more details, please see the release notes.</p>
             </description>
